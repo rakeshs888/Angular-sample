@@ -1,0 +1,189 @@
+[
+  {
+    "id": 1,
+    "img":"house1.jpg",
+    "type": "Condo",
+    "price": 220000,
+    "cart":0,
+    "address": "213 Grove Street",
+    "description": "Excellent place,with gymand swiming pool really nice view!",
+    
+      "likes":0,
+      "dislikes":0,
+    
+    "details": {
+      "bedrooms":  2,
+      "bathrooms": 1.5,
+      "area":921 
+    }
+    
+     
+   
+  },
+ 
+ {
+    "id": 2,
+    "img":"house2.jpg",
+    "type": "Cape Cod House",
+    "price": 410500,
+    "cart":0,
+    "address": "7823 Winding Way",
+    "description": "Beautiful home with lots of space for a large family.",
+  
+      "likes":0,
+      "dislikes":0,
+    
+    "details": {
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area": 2145 
+    }
+   
+  },
+
+  {
+    "id": 3,
+    "img":"house3.jpeg",
+    "type": "Shingle Duplex",
+    "price": 395000,
+    "cart":0,
+    "address": "834 River Lane",
+    "description": "Great neighbourhood and lot's of nice green space.",
+    
+      "likes":0,
+      "dislikes":0,
+   
+    "details": {
+      "bedrooms": 3,
+      "bathrooms": 2.5,
+      "area": 1500 
+    }
+    
+  },
+
+  {
+    "id": 4,
+    "img":"house4.jpg",
+    "type": "Greek Revival House",
+    "price": 755990,
+    "cart":0,
+    "address": "7807 Forest Avenue",
+    "description": "Best house on the block!",
+   
+      "likes":0,
+      "dislikes":0,
+   
+    "details": {
+      "bedrooms": 6,
+      "bathrooms": 4.5,
+      "area": 3230 
+    }
+    
+  },
+  {
+    "id": 5,
+    "img":"house10.jpg",
+    "type": " Greek Georgian house",
+    "price": 210500,
+    "cart":0,
+    "address": "1857 Andover Court",
+    "description": "Nice little condo with room to grow.",
+   
+      "likes":0,
+      "dislikes":0,
+    
+    
+    "details": {
+      "bedrooms": 2,
+      "bathrooms": 1.5,
+      "area": 1023 
+    }
+  
+  },
+
+   {
+    "id": 6,
+    "img":"house6.jpg",
+    "type": " Greek Georgian house",
+    "price": 210500,
+    "cart":0,
+    "address": "1857 Andover Court",
+    "description": "Nice little condo with room to grow.",
+   
+      "likes":0,
+      "dislikes":0,
+    
+    
+    "details": {
+      "bedrooms": 2,
+      "bathrooms": 1.5,
+      "area": 1623 
+    }
+  
+  },
+
+   {
+    "id": 7,
+    "img":"house7.jpg",
+    "type": " Colonial",
+    "price": 910500,
+    "cart":0,
+    "address": "1557 Gallaudet drive",
+    "description": "awesome little Colonial with room to grow.",
+   
+      "likes":0,
+      "dislikes":0,
+    
+    
+    "details": {
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area": 1523 
+    }
+  
+  },
+
+   {
+    "id": 8,
+    "img":"house8.jpeg",
+    "type": " Dutch Colonial",
+    "price": 810500,
+    "cart":0,
+    "address": "1947 high Court",
+    "description": "Nice little Dutch Colonial with room to grow.",
+   
+      "likes":0,
+      "dislikes":0,
+    
+    
+    "details": {
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area": 1423 
+    }
+  
+  },
+
+  {
+    "id": 9,
+    "img":"house9.jpg",
+    "type": "Mid-Century Modern",
+    "price": 634900,
+    "cart":0,
+    "address": "4398 west Avenue",
+    "description": "Nice Mid-Century Modern house You'll love the view!",
+    
+      "likes":0,
+      "dislikes":0,
+   
+    "details": {
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area": 1788 
+    }
+   
+  }
+  
+
+
+ ]

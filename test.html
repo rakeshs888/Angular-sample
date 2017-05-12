@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="container" ng-app="ngCribs" ng-controller="cribsController">
+		<head style="padding-left: 10px" >
+			<title>Creative Houses</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+  			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.2.0/ui-bootstrap.min.js" ></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.2.0/ui-bootstrap-tpls.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
+    		<script src="routing.js"></script>
+			<script src="cribsController.js"></script>
+			<script src="cribsFactory.js"></script>
+			<script src="filter.js"></script>
+			<!-- <script src="jquery.js"></script> -->
+			
+		</head>
+
+		<body style="background-color:orange;" >
+
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+		<a  class="navbar-brand" href="file:///Users/madhusudanreddysanaiahgari/Desktop/madhu/test.html"><span style="color: yellow;font-size: 200%">Creative Houses</span><small>.com</small> </a>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav navbar-right">
+			<li class=""><a href="#/home">Home</a></li>
+			<li class=""><a href="#/resume">Resume</a></li>
+			<li class=""><a href="#/slide">About</a></li>
+		<li class="dropdown">
+    	<a href="#" class="dropdown-toggle"  data-toggle="dropdown">More Houses
+    	<span class="caret"></span></a>
+    	<ul style="background-color: black;" class="dropdown-menu">
+    	<li  class="dropdown-header"><b> House Websites</b></li>
+      <li><a href="http://www.homefinedr.com" target="_blank"><b>Home Finder</b></a></li>
+      <li><a href="https://www.trulia.com" target="_blank"><b>Trulia</b></a></li>
+      <li><a href="http://www.zillow.com" target="_blank"><b>Zillow</b></a></li>
+
+   			 </ul>
+ 		 </li>
+ 		<li class=""><a href="#">Cart(  )</a></li>
+ 		<li class="" ><a href=""><input style="color: black" type="text" placeholder="Search by text" ng-model="test"></a></li>
+ 		<li class="dropdown">
+    	<a href="#" class="dropdown-toggle"  data-toggle="dropdown">Sign in
+    	<span class="caret"></span></a>
+    	<ul style="background-color: black;" class="dropdown-menu">
+    	<li class="" ><a href=""><input style="border-radius: 10px" type="text" placeholder="User name" ></a></li>
+    	<li class="" ><a href=""><input style="border-radius: 10px" type="text" placeholder="Password" ></a></li>
+    	<li><a style="color: white" href="www.gmail.com">Forget Password</a></li>
+    	<li class=""><a style="float: right;background-color:yellow" href="#">Log In</a></li><br>
+    	<li class=""><a style="float: right;" href="#">Sign Up</a></li>
+
+
+    	</ul>
+			</ul>
+			</div>
+			</div>			
+		</nav>
+		<br><br><br>
+
+	
+  
+
+
+		<div ui-view=""></div>
+        </body>
+        
+
+
+</html>
